@@ -1,0 +1,77 @@
+body {
+    padding: 0px;
+    margin : 0px;
+    background: linear-gradient(to right, #667eea 30%, #b68ce0 35%, rgb(136, 225, 136) 70%);
+}
+
+#college-image1, #college-image2, #college-image3, #college-image4, #college-image5, #college-image6 {
+    border-radius: 30px;
+    height : 300px;
+    width : 500px;
+    border : 2px solid rgb(242, 101, 209);
+}
+
+#college-image1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.25s ease-in-out;
+}
+#college-image2:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.25s ease-in-out;
+}
+#college-image3:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.25s ease-in-out;
+}
+#college-image4:hover, #college-image5:hover, #college-image6:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.25s ease-in-out;
+}
+h3 {
+    text-align: center;
+    color : white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hd1 {
+
+    border: 2px solid rgb(249, 249, 249);
+    border-radius: 20px;
+    border-width: 3.5px;;
+    margin : 40px;
+    padding : 10px;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: fit-content;
+    margin-left : auto;
+    margin-right: auto;
+}
+.bt1 {
+    color : rgb(255, 255, 252);
+    font-size: 22px;
+    font-style: italic;
+    font-display: swap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(248, 101, 116);
+    height : 50px;
+    width : 150px;
+    border-radius: 30px;
+    border-color: rgb(248, 248, 248);
+}
+
+.bt1:hover {
+    color :rgb(138, 71, 215);
+    transform: scale(1.06);
+    transition:transform 0.24s ease-in-out;
+    background-color: rgb(230, 241, 131);
+    cursor: pointer;
+}
+.toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 50px;
+}
